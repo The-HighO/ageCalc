@@ -6,7 +6,7 @@
     font-family: 'Inconsolata', monospace;                         
 }
 body{
-    background-color: blue;
+    background-color: #3c3c3c ;
 }
 .main{
     background-color: black;
@@ -25,7 +25,16 @@ body{
 }
 .output{
     display: grid;
-    grid-template-rows: 3rem 1fr 3rem;
+    grid-template-rows:3rem 3rem 1fr 3rem;
+}
+.error{
+    /* background-color: blue; */
+}
+#eligibility{
+    background-color: #00af75;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
 }
 .one, .three, .two{
     display: flex;

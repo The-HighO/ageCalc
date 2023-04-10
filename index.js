@@ -18,7 +18,11 @@ function showAge() {
     
     if (outputAge >=25) { eligibility.innerHTML= "Oops!! You are not Eligible for this Offer..."
         
-    } else {
+    } 
+    else if (outputAge <18){
+        eligibility.innerHTML= "Oops!! You are not Eligible for this Offer..."
+    }
+    else {
         eligibility.innerHTML= "Hurray!!! You Qualify for this Offer"
     }
 }
