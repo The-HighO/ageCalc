@@ -27,9 +27,6 @@ body{
     display: grid;
     grid-template-rows:3rem 3rem 1fr 3rem;
 }
-.error{
-    /* background-color: blue; */
-}
 #eligibility{
     font-size: 1.2rem;
     color: white;
@@ -60,7 +57,6 @@ body{
 }
 .innerCont{
     height: 100%;
-    /* background-color: aqua; */
 }
 #dob{
     margin-top: 1rem;
@@ -74,7 +70,7 @@ body{
 }
 #submit{
     background-color: #ffffff;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     border-radius: 0.25rem;
     font-size: 1rem;
     font-weight: 600;
@@ -108,8 +104,8 @@ body{
 }
 @media only screen and (min-width:990px){
     .calculatorContainer{
-        height: 50%;
-        max-width: 40rem;
+        height: 30rem;
+        max-width: 30rem;
         border: none;
     }
     .yourAge{
@@ -128,8 +124,7 @@ body{
         height: 4.5rem;
         font-size: 1.5rem;
     }
-    .decription{
-        margin-top: 2rem;
+    .decription{    
         font-size: 1.2rem;
     }
     #dob{
