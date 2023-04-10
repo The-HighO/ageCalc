@@ -16,13 +16,18 @@ dobInput.addEventListener("change", function() {
 function showAge() {
     ageDisplay.innerHTML = outputAge
     
-    if (outputAge >=25) { eligibility.innerHTML= "Oops!! You are not Eligible for this Offer..."
+    if (outputAge <18) { 
+        eligibility.style.color = "red"
+        eligibility.innerHTML= "Oops!! You are not Eligible for this Offer..."
         
     } 
-    else if (outputAge <18){
+    else if (outputAge >25 ){
+        eligibility.style.color = "red"
         eligibility.innerHTML= "Oops!! You are not Eligible for this Offer..."
     }
     else {
+        eligibility.style.color = "green"
+
         eligibility.innerHTML= "Hurray!!! You Qualify for this Offer"
     }
 }
