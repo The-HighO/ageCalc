@@ -109,6 +109,7 @@ body{
 }
 @media only screen and (min-width:990px){
     .calculatorContainer{
+        height: 50%;
         max-width: 40rem;
         border: none;
     }
@@ -131,5 +132,14 @@ body{
     .decription{
         margin-top: 2rem;
         font-size: 1.2rem;
+    }
+    #dob{
+        height: 4rem;
+        font-size: 1.5rem;  
+    }
+    #submit{
+        height: 4rem;
+        font-size: 1.5rem;
+        font-weight: 900;
     }
 }
