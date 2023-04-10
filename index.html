@@ -17,12 +17,12 @@
             <div class="output">
                 <div class="one">
                     <h1 class="yourAge">
-                        Your Age is:
+                        Your Are:
                     </h1>
                 </div>
                 <div class="two">
-                    <h1 class="result">
-                        0
+                    <h1 class="result" id="result">
+                
                     </h1>
                 </div>
                 <div class="three">
@@ -33,12 +33,15 @@
             </div>
             <div class="input">
                 <div class="innerCont">
-                    <input type="date" name="date" id="date">
                     <p class="decription">
-                        Enter your Date-of-Birth and we would calculate your age
+                        Enter your Date-of-Birth and Team Intel would calculate your age
                     </p>
+                    <!-- <strong id="eligibility"></strong> -->
+                    <input type="date" name="date" id="dob">
+                    <input id="submit" type="submit" onclick="showAge()" value="Show My Age">   
                 </div>
             </div>
         </div>
     </main>
+    <script src="./index.js"></script>
 </body>
