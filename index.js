@@ -17,16 +17,16 @@ function showAge() {
     ageDisplay.innerHTML = outputAge
     
     if (outputAge <18) { 
-        eligibility.style.color = "red"
+        eligibility.style.backgroundColor = "red"
         eligibility.innerHTML= "Oops!! You are not Eligible for this Offer..."
         
     } 
     else if (outputAge >25 ){
-        eligibility.style.color = "red"
+        eligibility.style.backgroundColor = "red"
         eligibility.innerHTML= "Oops!! You are not Eligible for this Offer..."
     }
     else {
-        eligibility.style.color = "green"
+        eligibility.style.backgroundColor = "green"
 
         eligibility.innerHTML= "Hurray!!! You Qualify for this Offer"
     }
